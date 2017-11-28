@@ -4,8 +4,7 @@ import java.util.List;
 
 public class Service {
 
-    public static int countMatches(List<NTuple<String>> nTuples1,
-            List<NTuple<String>> nTuples2) {
+    public static int countMatches(List<NTuple<String>> nTuples1, List<NTuple<String>> nTuples2) {
 
         int count = 0;
         for (NTuple<String> tuple1 : nTuples1) {
