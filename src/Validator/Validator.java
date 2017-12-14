@@ -141,7 +141,7 @@ public class Validator {
                 File[] files = new File(String.valueOf(args[1])).listFiles();
                 styleLines(files);
                 
-            // Plagiarism detector: Checks if there's any sing of Plagiarism 
+            // Plagiarism detector: Checks if there's any sign of Plagiarism 
             // giving the file directory    
             } else if ("3".equals(String.valueOf(args[0]))) {
                 numTuples = 3;
